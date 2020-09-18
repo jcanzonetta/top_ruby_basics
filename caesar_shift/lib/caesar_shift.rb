@@ -22,7 +22,7 @@ def caesar_cipher(string, shift)
   end
 
   # return the shifted array as a string
-  p shifted_array.join
+  shifted_array.join
 end
 
 # determine if the ANSI character code is a capital, lowercase, or non-character
@@ -44,5 +44,3 @@ def wrap_code(lower_bound, upper_bound, char)
     char
   end
 end
-
-caesar_cipher('What a string!', 5)
